@@ -210,12 +210,10 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
 @media (max-width: 700px) { 
     .projects {
         width: 95%;
-        margin: auto;
-        position: relative;
-        height: auto;
-        background-color: #fff;
-        padding-top: 20px;
-        padding-bottom: 20px; }
+        margin: auto; }
+    
+    .projects h1 {
+        width: 95%; }
 
     .nav {
         font-size: 12px; }
@@ -225,6 +223,7 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
         justify-content: space-between; } 
 
     .projects .project {
+        margin: auto;
         margin-bottom: 20px; }
 
     .head h1 {
