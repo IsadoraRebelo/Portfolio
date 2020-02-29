@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -23,8 +23,7 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
 #cont {
     width: 100%;
     height: auto;
-    overflow: hidden;
-}
+    overflow: hidden; }
 
 .nav {
     width: 98%;
@@ -186,12 +185,28 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
 
 .social a:hover { opacity: 0.6; }
 
+.credits {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 11px;}
+
+.credits a {
+    color: brown;
+    cursor:  crosshair; }
+
+.credits a:hover { opacity: 0.6; }
+
 @media (max-width: 900px) { 
     .projects .container {
         flex-direction: column;
         justify-content: space-between; } 
+
     .projects .project {
         margin-bottom: 20px; }
+
     .head h1 {
         font-size: 30px;
         color: var(--box_t_color); }
