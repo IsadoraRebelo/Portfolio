@@ -54,7 +54,7 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
     justify-content: center;
     align-items: center;
     background-image: url(/imgs/header.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover; }
 
 .title {
@@ -239,6 +239,6 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
     .projects .project { width: 300px; }
 
     .projects .image { height: 200px; }
-    
+
     .nav { font-size: 10px; }
 }
