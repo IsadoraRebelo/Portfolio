@@ -202,6 +202,9 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
 .credits a:hover { opacity: 0.6; }
 
 @media (max-width: 900px) { 
+    .nav {
+        font-size: 12px; }
+
     .projects .container {
         flex-direction: column;
         justify-content: space-between; } 
