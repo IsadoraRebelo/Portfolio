@@ -1,0 +1,41 @@
+@media (max-width: 1040px) { 
+    .projects .project {
+        margin-left: 5px;
+        margin-right: 5px; }
+}
+
+@media (max-width: 700px) { 
+    .projects {
+        width: 95%;
+        margin: auto; }
+    
+    .projects h1 {
+        width: 95%; }
+
+    .nav {
+        font-size: 12px; }
+
+    .projects .container {
+        flex-direction: column;
+        justify-content: space-between; } 
+
+    .projects .project {
+        margin: auto;
+        margin-bottom: 20px; }
+
+    .head h1 {
+        font-size: 30px;
+        color: var(--box_t_color); }
+
+    .head h2 {
+        font-size: 18px;
+        color: var(--box_t_color); }
+}
+
+@media (max-width: 400px) { 
+    .projects .project { width: 300px; }
+
+    .projects .image { height: 200px; }
+
+    .nav { font-size: 10px; }
+}
