@@ -16,11 +16,11 @@ body a {
 
 body a:hover { opacity: 0.6; }
 
-body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
+body h1, h2, h3 { font-family: 'Baloo Tammudu', cursive; }
 
 :root {
     --box_colors:  #000000;
-    --box_t_color: #f8f9fa;
+    --box_t_color: #39434d;
     --body_t_color:#303437; }
 
 #cont {
@@ -69,11 +69,11 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
 
 .head h1 {
     font-size: 47px;
-    color: var(--box_t_color); }
+    color: white; }
 
 .head h2 {
     font-size: 27px;
-    color: var(--box_t_color); }
+    color: white;  }
 
 .box {
     width: 100%;
@@ -82,10 +82,10 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
     padding-bottom: 20px;
     background-color: var(--box_colors); }
 
-.box h1 {
+.box h3 {
     font-size: 30px;
     text-align: center;
-    color: var(--box_t_color); }
+    color: white; }
 
 .box p {
     width: 80%;
@@ -103,7 +103,7 @@ body h1, h2 { font-family: 'Baloo Tammudu', cursive; }
     padding-top: 20px;
     padding-bottom: 20px; }
 
-.projects h1 {
+.projects h3 {
     width: 100%;
     font-size: 35px;
     color: var(--body_t_color); }
