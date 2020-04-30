@@ -1,2 +1,2 @@
 # Portfolio
-https://isadoraportfolio.netlify.com/
+https://isadoraportfolio.netlify.app/
