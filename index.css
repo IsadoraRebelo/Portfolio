@@ -149,6 +149,7 @@ body h1, h2, h3 { font-family: 'Baloo Tammudu', cursive; }
 .projects .fillit { background-image: url(imgs/fillit.gif); }
 .projects .pushswap { background-image: url(imgs/pushswap.gif); }
 .projects .corewar { background-image: url(imgs/corewar.gif); }
+.projects .maze { background-image: url(imgs/maze.gif); }
 
 .contact {
     width: 100%;
